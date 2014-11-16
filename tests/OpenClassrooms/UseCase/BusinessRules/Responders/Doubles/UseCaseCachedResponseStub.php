@@ -10,4 +10,5 @@ class UseCaseCachedResponseStub extends UseCaseResponseStub
     const VALUE = 'cached value';
 
     public $value = self::VALUE;
+
 }

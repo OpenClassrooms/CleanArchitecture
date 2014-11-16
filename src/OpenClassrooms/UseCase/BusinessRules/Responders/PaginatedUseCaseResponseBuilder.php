@@ -7,6 +7,7 @@ namespace OpenClassrooms\UseCase\BusinessRules\Responders;
  */
 abstract class PaginatedUseCaseResponseBuilder
 {
+
     /**
      * @var AbstractPaginatedUseCaseResponse
      */

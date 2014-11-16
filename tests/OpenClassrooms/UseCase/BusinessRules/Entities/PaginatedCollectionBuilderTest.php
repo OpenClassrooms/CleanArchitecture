@@ -11,6 +11,7 @@ use OpenClassrooms\UseCase\BusinessRules\Entities\PaginatedCollectionBuilder;
  */
 class PaginatedCollectionBuilderTest extends \PHPUnit_Framework_TestCase
 {
+
     /**
      * @var PaginatedCollectionBuilder
      */

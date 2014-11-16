@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Security;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Security\Exceptions\AttributesMustBeDefinedException;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Security\Exceptions\AttributesMustBeDefinedException;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

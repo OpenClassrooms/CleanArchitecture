@@ -2,13 +2,11 @@
 
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Event;
 
+use OpenClassrooms\Tests\UseCase\Application\Services\Security\Exceptions\AccessDeniedException;
 use OpenClassrooms\UseCase\Application\Services\Event\EventFactory;
-use
-    OpenClassrooms\UseCase\Application\Services\Event\Exceptions\InvalidEventNameException;
+use OpenClassrooms\UseCase\Application\Services\Event\Exceptions\InvalidEventNameException;
 use OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest;
 use OpenClassrooms\UseCase\BusinessRules\Responders\UseCaseResponse;
-use
-    OpenClassrooms\Tests\UseCase\Application\Services\Security\Exceptions\AccessDeniedException;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

@@ -9,6 +9,7 @@ use OpenClassrooms\UseCase\Application\Services\Transaction\Transaction;
  */
 class TransactionSpy implements Transaction
 {
+
     /**
      * @var bool
      */

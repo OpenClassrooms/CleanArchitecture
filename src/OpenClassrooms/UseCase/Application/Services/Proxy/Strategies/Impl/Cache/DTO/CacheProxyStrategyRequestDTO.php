@@ -2,14 +2,14 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\Cache\DTO;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Cache\CacheProxyStrategyRequest;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Cache\CacheProxyStrategyRequest;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>
  */
 class CacheProxyStrategyRequestDTO implements CacheProxyStrategyRequest
 {
+
     /**
      * @var int
      */

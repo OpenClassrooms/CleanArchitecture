@@ -2,7 +2,7 @@
 
 namespace OpenClassrooms\Tests\UseCase\BusinessRules\Responders;
 
-use OpenClassrooms\Tests\UseCase\BusinessRules\Responders\Doubles\PaginatedUseCaseResponseBuilderStub;
+use OpenClassrooms\UseCase\Application\Responder\PaginatedUseCaseResponseBuilderImpl;
 use OpenClassrooms\UseCase\BusinessRules\Responders\PaginatedUseCaseResponseBuilder;
 
 /**
@@ -10,6 +10,7 @@ use OpenClassrooms\UseCase\BusinessRules\Responders\PaginatedUseCaseResponseBuil
  */
 class PaginatedUseCaseResponseBuilderTest extends \PHPUnit_Framework_TestCase
 {
+
     /**
      * @var PaginatedUseCaseResponseBuilder
      */
@@ -115,6 +116,6 @@ class PaginatedUseCaseResponseBuilderTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->builder = new PaginatedUseCaseResponseBuilderStub();
+        $this->builder = new PaginatedUseCaseResponseBuilderImpl();
     }
 }

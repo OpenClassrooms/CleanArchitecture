@@ -3,13 +3,6 @@
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Proxy\UseCases;
 
 use Doctrine\Common\Annotations\AnnotationReader;
-use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Cache\OnlyCacheUseCaseStub;
-use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Event\OnlyEventNameEventUseCaseStub;
-use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleSecurityUseCaseStub;
-use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Transaction\OnlyTransactionUseCaseStub;
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\UseCases\Impl\UseCaseProxyBuilderImpl;
-use OpenClassrooms\UseCase\Application\Services\Proxy\UseCases\UseCaseProxyBuilder;
 use OpenClassrooms\Tests\UseCase\Application\Services\Cache\CacheSpy;
 use OpenClassrooms\Tests\UseCase\Application\Services\Event\EventFactorySpy;
 use OpenClassrooms\Tests\UseCase\Application\Services\Event\EventSenderSpy;
@@ -17,8 +10,13 @@ use OpenClassrooms\Tests\UseCase\Application\Services\Security\SecuritySpy;
 use OpenClassrooms\Tests\UseCase\Application\Services\Transaction\TransactionSpy;
 use OpenClassrooms\Tests\UseCase\BusinessRules\Requestors\UseCaseRequestStub;
 use OpenClassrooms\Tests\UseCase\BusinessRules\Responders\Doubles\UseCaseResponseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Cache\OnlyCacheUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Event\OnlyEventNameEventUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Transaction\OnlyTransactionUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsUseCaseStub;
+use OpenClassrooms\UseCase\Application\Services\Proxy\UseCases\Impl\UseCaseProxyBuilderImpl;
+use OpenClassrooms\UseCase\Application\Services\Proxy\UseCases\UseCaseProxyBuilder;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

@@ -10,6 +10,7 @@ use OpenClassrooms\Cache\Cache\CacheImpl;
  */
 class CacheSpy extends CacheImpl
 {
+
     /**
      * @var int
      */

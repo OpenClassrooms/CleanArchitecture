@@ -2,9 +2,9 @@
 
 namespace OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Transaction;
 
-use OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest;
 use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\ExceptionUseCaseStub;
 use OpenClassrooms\UseCase\Application\Annotations\Transaction;
+use OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

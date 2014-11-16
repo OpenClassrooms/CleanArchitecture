@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Cache;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Cache\Exceptions\CacheIdMustBeDefinedException;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Cache\Exceptions\CacheIdMustBeDefinedException;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

@@ -2,12 +2,9 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\Event\DTO;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\EventProxyStrategyRequest;
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\EventProxyStrategyRequestBuilder;
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\Exceptions\EventNameMustBeDefinedException;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\EventProxyStrategyRequest;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\EventProxyStrategyRequestBuilder;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\Exceptions\EventNameMustBeDefinedException;
 use OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest;
 use OpenClassrooms\UseCase\BusinessRules\Responders\UseCaseResponse;
 
@@ -16,6 +13,7 @@ use OpenClassrooms\UseCase\BusinessRules\Responders\UseCaseResponse;
  */
 class EventProxyStrategyRequestBuilderImpl implements EventProxyStrategyRequestBuilder
 {
+
     /**
      * @var EventProxyStrategyRequestDTO
      */

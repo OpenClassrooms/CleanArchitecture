@@ -2,14 +2,14 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\ProxyStrategyBag;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors\ProxyStrategyBag;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>
  */
 class TransactionProxyStrategyBagImpl extends ProxyStrategyBag
 {
+
     /**
      * @var bool
      */
@@ -24,4 +24,5 @@ class TransactionProxyStrategyBagImpl extends ProxyStrategyBag
      * @var bool
      */
     protected $onException = true;
+
 }

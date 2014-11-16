@@ -9,6 +9,7 @@ use OpenClassrooms\UseCase\BusinessRules\Entities\PaginatedCollection;
  */
 abstract class AbstractPaginatedUseCaseResponseFactory implements PaginatedUseCaseResponseFactory
 {
+
     /**
      * @var PaginatedUseCaseResponseBuilder
      */

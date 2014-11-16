@@ -2,8 +2,8 @@
 
 namespace OpenClassrooms\Tests\UseCase\BusinessRules\Responders;
 
-use OpenClassrooms\Tests\UseCase\BusinessRules\Responders\Doubles\PaginatedUseCaseResponseBuilderStub;
 use OpenClassrooms\UseCase\Application\Entity\PaginatedCollectionImpl;
+use OpenClassrooms\UseCase\Application\Responder\PaginatedUseCaseResponseBuilderImpl;
 use OpenClassrooms\UseCase\Application\Responder\PaginatedUseCaseResponseFactoryImpl;
 use OpenClassrooms\UseCase\BusinessRules\Responders\PaginatedUseCaseResponseFactory;
 
@@ -12,6 +12,7 @@ use OpenClassrooms\UseCase\BusinessRules\Responders\PaginatedUseCaseResponseFact
  */
 class PaginatedUseCaseResponseFactoryTest extends \PHPUnit_Framework_TestCase
 {
+
     /**
      * @var PaginatedUseCaseResponseFactory
      */
@@ -57,6 +58,6 @@ class PaginatedUseCaseResponseFactoryTest extends \PHPUnit_Framework_TestCase
     protected function setUp()
     {
         $this->factory = new PaginatedUseCaseResponseFactoryImpl();
-        $this->factory->setPaginatedUseCaseResponseBuilder(new PaginatedUseCaseResponseBuilderStub());
+        $this->factory->setPaginatedUseCaseResponseBuilder(new PaginatedUseCaseResponseBuilderImpl());
     }
 }

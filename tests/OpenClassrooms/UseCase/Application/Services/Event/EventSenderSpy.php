@@ -9,6 +9,7 @@ use OpenClassrooms\UseCase\Application\Services\Event\EventSender;
  */
 class EventSenderSpy implements EventSender
 {
+
     /**
      * @var string
      */

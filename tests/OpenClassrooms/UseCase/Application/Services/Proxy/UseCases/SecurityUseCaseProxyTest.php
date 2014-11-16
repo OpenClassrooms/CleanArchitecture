@@ -3,16 +3,11 @@
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Proxy\UseCases;
 
 use OpenClassrooms\Tests\UseCase\BusinessRules\Requestors\UseCaseRequestStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\FieldRoleSecurityUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\ManyRolesSecurityUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleNotAuthorizedSecurityUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleSecurityUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\RequestRoleSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\FieldRoleSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\ManyRolesSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleNotAuthorizedSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\OnlyRoleSecurityUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Security\RequestRoleSecurityUseCaseStub;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

@@ -11,7 +11,6 @@ class PaginatedUseCaseResponseBuilderImpl extends PaginatedUseCaseResponseBuilde
 {
     /**
      * @return PaginatedUseCaseResponseBuilder
-     * @codeCoverageIgnore
      */
     public function create()
     {

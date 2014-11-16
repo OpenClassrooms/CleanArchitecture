@@ -8,6 +8,7 @@ namespace OpenClassrooms\UseCase\Application\Annotations;
  */
 class Cache
 {
+
     /**
      * @var string
      */

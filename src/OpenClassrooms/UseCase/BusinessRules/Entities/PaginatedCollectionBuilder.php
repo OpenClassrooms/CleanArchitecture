@@ -7,6 +7,7 @@ namespace OpenClassrooms\UseCase\BusinessRules\Entities;
  */
 abstract class PaginatedCollectionBuilder
 {
+
     /**
      * @var PaginatedCollection
      */

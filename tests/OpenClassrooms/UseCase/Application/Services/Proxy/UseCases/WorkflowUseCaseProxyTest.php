@@ -2,19 +2,15 @@
 
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Proxy\UseCases;
 
-use
-    OpenClassrooms\Tests\UseCase\Application\Services\Security\Exceptions\AccessDeniedException;
+use OpenClassrooms\Tests\UseCase\Application\Services\Security\Exceptions\AccessDeniedException;
 use OpenClassrooms\Tests\UseCase\BusinessRules\Exceptions\UseCaseException;
 use OpenClassrooms\Tests\UseCase\BusinessRules\Requestors\UseCaseRequestStub;
 use OpenClassrooms\Tests\UseCase\BusinessRules\Responders\Doubles\UseCaseResponseStub;
 use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\UseCaseStub;
 use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\WithoutResponseUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsNotAuthorizedUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsUseCaseStub;
-use
-    OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\ExceptionAllAnnotationsUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsNotAuthorizedUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\AllAnnotationsUseCaseStub;
+use OpenClassrooms\Tests\UseCase\BusinessRules\UseCases\Workflow\ExceptionAllAnnotationsUseCaseStub;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>
@@ -41,6 +37,7 @@ class WorkflowUseCaseProxyTest extends AbstractUseCaseProxyTest
         $this->useCaseProxy->execute(new UseCaseRequestStub());
         $this->assertTrue(true);
     }
+
     /**
      * @test
      */

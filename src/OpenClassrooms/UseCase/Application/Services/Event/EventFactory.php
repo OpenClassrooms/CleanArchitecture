@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Event;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Event\Exceptions\InvalidEventNameException;
+use OpenClassrooms\UseCase\Application\Services\Event\Exceptions\InvalidEventNameException;
 use OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest;
 use OpenClassrooms\UseCase\BusinessRules\Responders\UseCaseResponse;
 

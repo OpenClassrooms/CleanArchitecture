@@ -10,6 +10,7 @@ use OpenClassrooms\UseCase\Application\Services\Transaction\Transaction;
  */
 class TransactionPDOAdapterTest extends \PHPUnit_Framework_TestCase
 {
+
     /**
      * @var \PDO
      */

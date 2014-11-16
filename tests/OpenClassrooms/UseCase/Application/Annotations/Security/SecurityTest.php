@@ -9,6 +9,7 @@ use Doctrine\Common\Annotations\AnnotationReader;
  */
 class SecurityTest extends \PHPUnit_Framework_TestCase
 {
+
     /**
      * @var AnnotationReader
      */

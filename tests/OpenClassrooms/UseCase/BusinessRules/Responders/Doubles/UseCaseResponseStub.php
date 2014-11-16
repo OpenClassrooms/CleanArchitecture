@@ -12,4 +12,5 @@ class UseCaseResponseStub implements UseCaseResponse
     const VALUE = 'value';
 
     public $value = self::VALUE;
+
 }

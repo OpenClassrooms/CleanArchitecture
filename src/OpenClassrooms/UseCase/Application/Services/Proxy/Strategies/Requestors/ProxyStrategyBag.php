@@ -5,8 +5,7 @@ namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestor
 use Doctrine\Common\Cache\Cache;
 use OpenClassrooms\UseCase\Application\Annotations\Event;
 use OpenClassrooms\UseCase\Application\Annotations\Transaction;
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Responders\ProxyStrategyResponse;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Responders\ProxyStrategyResponse;
 use OpenClassrooms\UseCase\Application\Services\Security\Security;
 
 /**
@@ -14,6 +13,7 @@ use OpenClassrooms\UseCase\Application\Services\Security\Security;
  */
 abstract class ProxyStrategyBag
 {
+
     /**
      * @var Security|Cache|Transaction|Event
      */

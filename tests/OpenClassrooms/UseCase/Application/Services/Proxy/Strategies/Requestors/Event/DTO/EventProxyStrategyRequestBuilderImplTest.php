@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Proxy\Strategies\Requestors\Event\DTO;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\Event\DTO\EventProxyStrategyRequestBuilderImpl;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\Event\DTO\EventProxyStrategyRequestBuilderImpl;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

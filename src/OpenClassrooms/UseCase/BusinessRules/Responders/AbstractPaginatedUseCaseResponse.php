@@ -72,7 +72,7 @@ abstract class AbstractPaginatedUseCaseResponse implements PaginatedUseCaseRespo
      */
     public function getTotalPages()
     {
-        if (null != $this->itemsPerPage) {
+        if (null !== $this->itemsPerPage && 0 < $this->itemsPerPage) {
             return (int) ceil($this->totalItems / $this->itemsPerPage);
         } else {
             return 1;

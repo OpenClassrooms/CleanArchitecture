@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Requestors;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Responders\ProxyStrategyResponse;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Responders\ProxyStrategyResponse;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

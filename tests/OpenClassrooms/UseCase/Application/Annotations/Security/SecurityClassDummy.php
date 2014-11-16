@@ -10,7 +10,7 @@ use OpenClassrooms\UseCase\Application\Annotations\Security;
 class SecurityClassDummy
 {
     /**
-     * @security
+     * @Security
      */
     public function method()
     {

@@ -2,8 +2,7 @@
 
 namespace OpenClassrooms\Tests\UseCase\Application\Services\Proxy\Strategies\Requestors;
 
-use
-    OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\ProxyStrategyBagFactoryImpl;
+use OpenClassrooms\UseCase\Application\Services\Proxy\Strategies\Impl\ProxyStrategyBagFactoryImpl;
 
 /**
  * @author Romain Kuzniak <romain.kuzniak@turn-it-up.org>

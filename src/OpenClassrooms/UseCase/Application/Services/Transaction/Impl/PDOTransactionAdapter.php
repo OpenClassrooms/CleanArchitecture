@@ -9,6 +9,7 @@ use OpenClassrooms\UseCase\Application\Services\Transaction\Transaction;
  */
 class PDOTransactionAdapter implements Transaction
 {
+
     /**
      * @var \PDO
      */
